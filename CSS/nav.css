@@ -1,0 +1,21 @@
+nav {
+    display: flex; /*  Deixando um elemento do lado do outro. */
+    justify-content: space-between; /* Dando espaço */
+    align-items: center; /* Alinhando os itens */
+    line-height: 0; /* Tirando a distância da linha. */
+    padding-block: 20px; /* Aplicando Padding em cima e em baixo. */
+}
+
+nav ul {
+    display: flex; /*  Deixando um elemento do lado do outro. */
+    list-style: none; /*  Tirando os pontinhos da lista. */
+    align-items: center; /* Alinhando os itens */
+    gap: 24px; /* Espaço entre os itens */
+
+    padding-block: 8px; /* Aplicando Padding em cima e em baixo. */
+}
+
+nav ul li:last-child img {
+    width: 40px;
+    height: 40px;
+}
